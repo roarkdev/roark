@@ -287,7 +287,7 @@
     <div class="glass pad">
       <p class="eyebrow">Security &amp; Privacy</p>
       <h2 class="section-title">Where patient data goes</h2>
-      <p class="section-sub">Clinical documents contain protected health information (PHI). Roark Health is built so that PHI goes directly from your browser to the AI provider your organization chooses — and nowhere else. Roark's servers never receive, process, or store document content.</p>
+      <p class="section-sub">Clinical documents contain protected health information (PHI). Roark Health is built so that PHI goes directly from your browser to the AI provider your organization chooses — and nowhere else. Roark doesn't receive, process, or store any of it — no documents, no outputs, no usage data.</p>
 
       <div class="table-scroll">
       <table class="datamap">
@@ -297,7 +297,7 @@
           <tr><td>Plain-language output, summary, questions, and notes</td><td>Stays in the browser session; leaves the device only if you export or save it</td><td>Nothing</td></tr>
           <tr><td>Saved session files</td><td>Saved to the device or location you choose, like any other file</td><td>Nothing</td></tr>
           <tr><td>Your AI provider API key</td><td>Stored in that device's browser and sent only to the provider it belongs to</td><td>Nothing</td></tr>
-          <tr><td>Site License usage dashboard</td><td>Aggregate counts only (for example, translations per day)</td><td>Usage counts — never document content or patient identifiers</td></tr>
+          <tr><td>Usage and activity</td><td>Not tracked by Roark. Your AI provider's own console shows API usage for your key</td><td>Nothing</td></tr>
         </tbody>
       </table>
       </div>
@@ -432,7 +432,7 @@
           <ul>
             <li>Unlimited providers at one site or department</li>
             <li>Bring your own organization-wide AI provider key</li>
-            <li>Site-wide usage dashboard for administrators</li>
+            <li>Usage visibility through your AI provider's own console</li>
             <li>Dedicated onboarding &amp; implementation support</li>
             <li>Priority support &amp; volume pricing for multi-site systems</li>
             <li>Best for hospital departments and health systems</li>
